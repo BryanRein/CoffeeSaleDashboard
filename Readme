@@ -1,0 +1,44 @@
+# Coffee Sales Dashboard
+
+This repository contains the Coffee Sales Dashboard project, which analyzes coffee sales data from 2019 to 2022 across different countries, coffee types, and customers.
+
+---
+
+## Project Description
+
+The project explores transactional coffee sales data to uncover trends and insights such as:
+
+- Monthly and yearly sales performance by coffee type (Arabica, Excelsa, Liberica, Robusta)
+- Sales distribution by country (United States, Ireland, United Kingdom)
+- Identification of top 5 customers by total sales
+
+---
+
+## Data Source
+
+The main dataset is provided in the file `CoffeeSaleDashboard.xlsx`. It includes the following sheets:
+
+- **orders**: Detailed transaction records with fields like Order ID, Order Date, Customer Name, Country, Coffee Type, Roast Type, Size, Unit Price, and Sales.
+- **TotalSales**: Aggregated monthly sales figures by coffee type from 2019 to 2022.
+- **CountryBarChart**: Total sales summarized by country.
+- **Top5Customers**: List of top 5 customers with their total sales.
+
+---
+
+## Final Outcome Summary
+
+- **Sales Trends:** Arabica and Excelsa coffees showed consistent high sales with seasonal fluctuations. Robusta and Liberica had more variable monthly sales.
+- **Market Distribution:** The United States dominates the sales market with over $35,000 in total sales, followed by Ireland and the United Kingdom with significantly lower volumes.
+- **Customer Insights:** Top 5 customers contributed significantly to total sales, highlighting key accounts for potential loyalty and marketing focus.
+
+---
+
+## Usage Instructions
+
+1. Download or clone this repository.
+2. Open the `CoffeeSaleDashboard.xlsx` file in Excel or any compatible spreadsheet software.
+3. Review the data sheets and perform your own analysis or use the data to build dashboards and reports.
+4. Optionally, integrate this data into BI tools or data science workflows for further insights.
+
+---
+
